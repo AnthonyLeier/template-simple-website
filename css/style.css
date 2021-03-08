@@ -29,7 +29,6 @@ nav {
 nav > a {
 	text-decoration: none;
 	color: #fff;
-	font-weight: 150;
 	font-size: 32px;
 	font-family: Yellowtail, sans-serif;
 }
@@ -113,7 +112,7 @@ header > p {
 	align-items: center;
 	text-align: center;
 	margin-top: 30px;
-	border: 1px solid #1c9450;
+	border: 2px solid #1c9450;
 	height: 200px;
 }
 
