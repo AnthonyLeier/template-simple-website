@@ -148,3 +148,37 @@ body nav ul {
 ::placeholder {
 	color: #a08f19;
 }
+
+/* Footer */
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	background-color: #DBD5A8;
+	padding: 0 0 50px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h6 {
+	font-size: 1rem;
+	line-height: 1px;
+}
+
+footer .sobre .conteudo {
+	display: flex;
+}
+
+footer .sobre .conteudo img {
+	width: 20vw;
+}
+
+footer .sobre .conteudo .descricao {
+	margin: 0 0 20px 40px;
+	width: 40vw;
+	line-height: 2rem;
+}
+
+footer .button.black {
+	color: black;
+}
