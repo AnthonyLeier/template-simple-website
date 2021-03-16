@@ -1,232 +1,26 @@
 body {
-	font-family: Nunito, sans-serif;
-	color: #1c1c1c;
+	background-color: black;
 }
 
-h1,
-h2,
-h3 {
-	font-family: Asap, sans-serif;
-	color: #000000;
-}
-
-.botao {
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 30px;
-	background-color: #1c9450;
-	font-size: 0.9em;
-	border-radius: 3px;
-}
-
-nav {
+body nav {
+	background-color: rgba(255, 255, 255, 0.5);
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #1c9450;
+	justify-content: space-between;
+	padding: 0 100px 0 100px;
 }
 
-nav > a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 32px;
-	font-family: Yellowtail, sans-serif;
+body nav img {
+	width: 200px;
+	height: 55px;
+	margin: 20px;
 }
 
-nav > ul {
+body nav ul {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	list-style: none;
-	padding: 0;
-	width: 100%;
-}
-
-nav > ul > li {
-	text-align: center;
-	width: 100%;
-}
-
-nav > ul > li > a {
-	display: inline-block;
-	padding: 10px 0;
-	width: 100%;
-	text-decoration: none;
-	color: #fff;
-}
-
-header {
-	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+	width: 43vw;
+	color: black;
 	align-items: center;
-	background-image: url('../img/camera.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	color: #fff;
-	text-align: center;
-	padding: 20px;
-}
-
-header > h1 {
-	color: #fff;
-}
-
-header > p {
-	margin-bottom: 2em;
-}
-
-#sobre {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 5px 5px 20px 5px;
-	background-color: #1c9450;
-	color: #fff;
-}
-
-#sobre > h2 {
-	color: #fff;
-}
-
-#sobre > p {
-	margin-bottom: 2.5em;
-}
-
-#sobre > .botao {
-	background-color: #f1f1f1;
-	color: #1c1c1c;
-}
-
-#servicos {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 30px;
-}
-
-#servicos > div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin-top: 30px;
-	border: 2px solid #1c9450;
-	height: 200px;
-}
-
-#fotos {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 20px;
-}
-
-#fotos > h2 {
-	margin-bottom: 20px;
-}
-
-#fotos > img {
-	width: 100%;
-}
-
-#contato {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 20px;
-}
-
-#contato > h2 {
-	color: #000;
-}
-
-#contato > div > p > a {
-	text-decoration: none;
-	color: #000;
-}
-
-footer {
-	text-align: center;
-	padding: 10px;
-	background-color: #1c9450;
-	color: #a5d6ba;
-}
-
-footer > a {
-	text-decoration: none;
-	color: #fff;
-}
-
-/* Tamanho do Monitor */
-@media screen and (min-width: 768px) {
-	nav {
-		flex-direction: row;
-		justify-content: space-around;
-	}
-	nav > ul {
-		flex-direction: row;
-		width: 70%;
-	}
-
-	header {
-		height: 600px;
-		height: 60vh;
-		justify-content: center;
-	}
-
-	#sobre {
-		height: 100px;
-		height: 30vh;
-		justify-content: center;
-		min-height: 100px;
-	}
-
-	#servicos {
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		max-width: 1000px;
-		margin: 0 auto;
-	}
-
-	#servicos > h2 {
-		text-align: center;
-		width: 100%;
-	}
-
-	#servicos > div {
-		flex-grow: 1;
-		flex-basis: 150px;
-		padding: 0 10px;
-	}
-
-	#fotos {
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-
-	#fotos > h2 {
-		width: 100%;
-		text-align: center;
-	}
-
-	#fotos > img {
-		width: 33.33%;
-	}
-
-	#contato {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		max-width: 500px;
-		margin: 0 auto;
-	}
-
-	#contato > h2,
-	#contato > p {
-		width: 100%;
-	}
+	font-family: Arial, Helvetica, sans-serif;
 }
