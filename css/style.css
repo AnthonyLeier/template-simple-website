@@ -1,3 +1,5 @@
+/* Navbar e Cabeçalhos */
+
 body {
 	background-color: #ebe7cf;
 	color: #a08f19;
@@ -30,6 +32,8 @@ body nav ul {
 	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Trabalhos Recentes */
 
 #trabalhos {
 	display: flex;
@@ -64,3 +68,35 @@ body nav ul {
 	text-decoration: none;
 	margin: 35px 0 35px 0;
 }
+
+/* Depoimentos */
+
+#depoimentos {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#depoimentos h2 {
+	font-size: 1.7rem;
+}
+
+#depoimentos img {
+	border-radius: 50%;
+}
+
+#depoimentos p {
+	color: black;
+	width: 60vw;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2rem;
+}
+
+#depoimentos h4 {
+	color: black;
+}
+
+/* Em Destaque */
