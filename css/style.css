@@ -122,3 +122,29 @@ body nav ul {
 .galeria-destaques img {
 	width: 33.33%;
 }
+
+/* Formulário */
+
+#formulario {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#formulario input {
+	border-style: dotted;
+	background-color: white;
+	color: white;
+	border-radius: 15px;
+	border-color: #a08f19;
+	width: 30vw;
+	height: 3vw;
+	text-align: center;
+}
+
+/* Mudar a cor do placeholder */
+::placeholder {
+	color: #a08f19;
+}
