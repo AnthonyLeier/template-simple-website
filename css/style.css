@@ -2,6 +2,11 @@ body {
 	background-color: black;
 }
 
+header {
+	background-image: url('../img/arvores.jpg');
+	height: 100vh;
+}
+
 body nav {
 	background-color: rgba(255, 255, 255, 0.5);
 	display: flex;
