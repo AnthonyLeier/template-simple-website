@@ -100,3 +100,25 @@ body nav ul {
 }
 
 /* Em Destaque */
+
+#destaques {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#destaques h2 {
+	margin: 40px 0 40px 0;
+}
+
+.galeria-destaques {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0 0 40px 0;
+}
+
+.galeria-destaques img {
+	width: 33.33%;
+}
