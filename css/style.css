@@ -1,8 +1,8 @@
 /* Navbar e Cabeçalhos */
 
 body {
-	background-color: #ebe7cf;
-	color: #a08f19;
+	background-color: #d6fff1;
+	color: #368a68;
 }
 
 header {
@@ -11,15 +11,15 @@ header {
 }
 
 body nav {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.7);
 	display: flex;
 	justify-content: space-between;
 	padding: 0 100px 0 100px;
 }
 
 body nav img {
-	width: 200px;
-	height: 55px;
+	width: 297px;
+	height: 78px;
 	margin: 20px;
 }
 
@@ -31,6 +31,8 @@ body nav ul {
 	color: black;
 	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
 }
 
 /* Trabalhos Recentes */
@@ -58,7 +60,7 @@ body nav ul {
 
 .button {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: #a08f19;
+	background-color: #368a68;
 	color: white;
 	font-size: 1.2rem;
 	padding: 0.6rem 1.4rem;
@@ -85,6 +87,8 @@ body nav ul {
 
 #depoimentos img {
 	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
 
 #depoimentos p {
@@ -138,7 +142,7 @@ body nav ul {
 	background-color: white;
 	color: white;
 	border-radius: 15px;
-	border-color: #a08f19;
+	border-color: #368a68;
 	width: 30vw;
 	height: 3vw;
 	text-align: center;
@@ -146,7 +150,7 @@ body nav ul {
 
 /* Mudar a cor do placeholder */
 ::placeholder {
-	color: #a08f19;
+	color: #368a68;
 }
 
 /* Footer */
@@ -155,7 +159,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	color: black;
-	background-color: #DBD5A8;
+	background-color: #92d1bc;
 	padding: 0 0 50px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
