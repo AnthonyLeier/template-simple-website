@@ -1,0 +1,157 @@
+@media (max-width: 1024px) {
+	footer .sobre .conteudo img {
+		width: 240px;
+		height: 179.2px;
+	}
+}
+
+@media (max-width: 768px) {
+	body nav {
+		justify-content: flex-start;
+		padding: 0 0 0 0;
+	}
+
+	body nav ul {
+		width: 60%;
+	}
+
+	footer {
+		padding: 0 15px 50px 15px;
+	}
+
+	footer h6 {
+		font-size: 0.9rem;
+		line-height: 0.9rem;
+	}
+
+	footer .sobre .conteudo img {
+		width: 240px;
+		height: 179.2px;
+	}
+
+	footer .sobre .conteudo .descricao {
+		width: 30%;
+		line-height: 1rem;
+		font-size: 0.7rem;
+	}
+
+	.descricao p {
+		margin: 0 0 20px 0;
+	}
+
+	footer .button.black {
+		font-size: 0.7rem;
+	}
+
+	.texto {
+		margin: 60px 0 20px 0;
+		line-height: 1rem;
+		font-size: 0.7rem;
+	}
+}
+
+@media (max-width: 600px) {
+	body nav {
+		justify-content: center;
+	}
+
+	body nav img {
+		width: 200px;
+		height: 55px;
+		margin: 20px;
+	}
+
+	body nav ul {
+		display: none;
+	}
+
+	nav ul li {
+		display: none;
+	}
+
+	.galeria {
+		flex-direction: column;
+	}
+
+	.galeria img {
+		width: 100%;
+	}
+
+	#depoimentos p {
+		width: 80%;
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+	}
+
+	.galeria-destaques {
+		flex-direction: column;
+	}
+
+	.galeria-destaques img {
+		width: 100%;
+	}
+
+	#formulario input {
+		width: 90%;
+		height: 50px;
+	}
+
+	footer {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.sobre {
+		justify-content: center;
+		text-align: center;
+	}
+
+	footer .sobre .conteudo {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	footer .sobre .conteudo .descricao {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 0 0;
+	}
+	.descricao p {
+		margin: 15px 0 20px 0;
+		width: 100%;
+	}
+
+	h6 {
+		text-align: center;
+	}
+
+	.orcamento h6 {
+		margin: 60px 0 15px 0;
+	}
+
+	.orcamento {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		line-height: 15rem;
+	}
+
+	.texto {
+		margin: 0 0 0 0;
+	}
+
+	footer .button.black {
+		margin: 0 0 0 0;
+	}
+}
+
+@media (max-width: 320px) {
+	h2,
+	#depoimentos h2 {
+		font-size: 1rem;
+	}
+}
