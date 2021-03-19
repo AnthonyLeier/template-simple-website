@@ -1,0 +1,4 @@
+li:hover a {
+	color: white;
+	transition: 0.15s ease-in;
+}

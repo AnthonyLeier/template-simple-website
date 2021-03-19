@@ -35,6 +35,11 @@ body nav ul {
 	font-size: 1.2rem;
 }
 
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
 /* Trabalhos Recentes */
 
 #trabalhos {
