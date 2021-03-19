@@ -1,4 +1,12 @@
 @media (max-width: 1024px) {
+	body nav {
+		padding: 0 50px 0 50px;
+	}
+
+	li {
+		font-size: 1rem;
+	}
+
 	footer .sobre .conteudo img {
 		width: 240px;
 		height: 179.2px;
@@ -6,6 +14,11 @@
 }
 
 @media (max-width: 768px) {
+	body nav img {
+		width: 200px;
+		height: 65px;
+	}
+
 	body nav {
 		justify-content: flex-start;
 		padding: 0 0 0 0;
