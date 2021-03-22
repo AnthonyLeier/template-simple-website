@@ -59,8 +59,12 @@ nav ul li a {
 	align-items: center;
 }
 
-.galeria img {
+.galeria .card {
 	width: 33.33%;
+}
+
+.galeria img {
+	width: 100%;
 }
 
 .button {
@@ -75,6 +79,43 @@ nav ul li a {
 	text-decoration: none;
 	margin: 35px 0 35px 0;
 }
+
+/* Efeitos de Hover
+
+.galeria .card {
+	background-color: black;
+}
+
+.card a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.titulo {
+	opacity: 0;
+	display: none;
+	position: relative;
+	top: -200px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.galeria .card:hover .titulo {
+	opacity: 1;
+	display: block;
+}
+
+.galeria .card:hover img {
+	opacity: 0.3;
+}
+
+.galeria span {
+	color: white;
+	text-decoration: none;
+} */
 
 /* Depoimentos */
 
